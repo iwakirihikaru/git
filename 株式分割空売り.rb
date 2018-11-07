@@ -30,11 +30,11 @@ timer(Time.parse("10:10")) do
   wd.get "https://trade.smbcnikko.co.jp/Logout/95C2K0006681/login/ipan_logout/exec"
   element = wd.find_element(:class, "btn-gray-login").click
   element = wd.find_element(:name, "koza1")
-  element.send_keys('255')
+  element.send_keys('***')
   element = wd.find_element(:name, "koza2")
-  element.send_keys("568112")
+  element.send_keys("****")
   element = wd.find_element(:name, "passwd")
-  element.send_keys("KGS777")
+  element.send_keys("*****")
 
   element = wd.find_element(:class, "inputBtn").click
   element = wd.find_element(:name,"meigNm")
@@ -71,11 +71,11 @@ wd.get "https://trade.smbcnikko.co.jp/Logout/95C2K0006681/login/ipan_logout/exec
 element = wd.find_element(:class, "btn-gray-login").click
 
 element = wd.find_element(:name, "koza1")
-element.send_keys('255')
+element.send_keys('***')
 element = wd.find_element(:name, "koza2")
-element.send_keys("568112")
+element.send_keys("****")
 element = wd.find_element(:name, "passwd")
-element.send_keys("KGS777")
+element.send_keys("*****")
 element = wd.find_element(:class, "inputBtn").click
 element = wd.find_element(:name,"meigNm")
 element.send_keys("#{number}")
@@ -106,11 +106,11 @@ sleep 3
 #element = wd.find_element(:class, "btn-gray-login").click
 #
 #element = wd.find_element(:name, "koza1")
-#element.send_keys('255')
+#element.send_keys('***')
 #element = wd.find_element(:name, "koza2")
-#element.send_keys("568112")
+#element.send_keys("****")
 #element = wd.find_element(:name, "passwd")
-#element.send_keys("KGS777")
+#element.send_keys("****")
 #element = wd.find_element(:class, "inputBtn").click
 #element = wd.find_element(:name,"meigNm")
 #element.send_keys("#{number}")
@@ -138,11 +138,11 @@ sleep 3
 #element = wd.find_element(:class, "btn-gray-login").click
 #
 #element = wd.find_element(:name, "koza1")
-#element.send_keys('255')
+#element.send_keys('***')
 #element = wd.find_element(:name, "koza2")
-#element.send_keys("568112")
+#element.send_keys("****")
 #element = wd.find_element(:name, "passwd")
-#element.send_keys("KGS777")
+#element.send_keys("*****")
 #element = wd.find_element(:class, "inputBtn").click
 #element = wd.find_element(:name,"meigNm")
 #element.send_keys("#{number}")
@@ -172,11 +172,11 @@ wd.get "https://trade.smbcnikko.co.jp/Logout/95C2K0006681/login/ipan_logout/exec
 element = wd.find_element(:class, "btn-gray-login").click
 
 element = wd.find_element(:name, "koza1")
-element.send_keys('255')
+element.send_keys('***')
 element = wd.find_element(:name, "koza2")
-element.send_keys("568112")
+element.send_keys("****")
 element = wd.find_element(:name, "passwd")
-element.send_keys("KGS777")
+element.send_keys("*****")
 element = wd.find_element(:class, "inputBtn").click
 element = wd.find_element(:name,"meigNm")
 element.send_keys("#{number}")
