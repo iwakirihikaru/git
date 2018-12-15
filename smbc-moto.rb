@@ -32,11 +32,11 @@ timer(Time.parse("22:12")) do
   element = wd.find_element(:class, "btn-gray-login").click
 
   element = wd.find_element(:name, "koza1")
-  element.send_keys('255')
+  element.send_keys('koza_id')
   element = wd.find_element(:name, "koza2")
-  element.send_keys("568112")
+  element.send_keys("koza_id2")
   element = wd.find_element(:name, "passwd")
-  element.send_keys("KGS777")
+  element.send_keys("pass")
   element = wd.find_element(:class, "inputBtn").click
   element = wd.find_element(:name,"meigNm")
   element.send_keys("#{number}")
